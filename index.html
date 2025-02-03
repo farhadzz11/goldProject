@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://parniangold.com/assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://parniangold.com/assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://parniangold.com/assets/css/style.css">
+    <link rel="stylesheet" href="https://parniangold.com/assets/my edit/style.css?v=004">
+    <link rel="stylesheet" href="https://parniangold.com/assets/css/responsive.css?v=03">
+</head>
+<body>
+    <div class="col-md-7 col-lg-6 col-xl-5 px-3">
+
+                            <div class="tab-wrapper sell-buy tab2">
+                                <div class="title-wrapper bg-green-gradient" id="title-wrapper">
+                                    <ul class="nav nav-tabs border-0 px-5 position-relative" id="myTabs" role="tablist">
+                                        <li class="nav-item w-100 position-absolute right-0" role="presentation">
+                                            <a class="nav-link bg-transparent border-0 active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" aria-selected="true" role="tab">
+                                                <div class="title-tag home-right-tab mt-lg-3">
+                                                    <img src="https://parniangold.com/assets/images/tag-green-2.svg">
+                                                    <span class="title">خرید</span>
+                                                </div>
+                                            </a>
+                                            <div class="row col-12 justify-content-end tab-title-info home-right-tab">
+                                                <div class="col-7 text-center pt-3">
+                                                    <p class="text-white m-0 btinfo">قیمت فـــروش طلا</p>
+                                                    <p class="text-light-orange mb-2">5,611,840
+                                                        تومان</p>
+                                                    <h3 class="main-title">فروش</h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item w-100 position-absolute right-0" role="presentation">
+                                            <a class="nav-link bg-transparent border-0" id="tab2-tab" data-bs-toggle="tab" href="#tab2" aria-selected="false" role="tab" tabindex="-1">
+                                                <div class="title-tag home-left-tab yjdtgbds">
+                                                    <img src="https://parniangold.com/assets/images/tag-red-2.svg">
+                                                    <span class="title">فروش</span>
+                                                </div>
+                                            </a>
+                                            <div class="row col-12 justify-content-end tab-title-info home-left-tab">
+                                                <div class="col-8 text-center pt-3">
+                                                    <p class="text-white m-0 btinfo">قیمت خریــــــد طلا</p>
+                                                    <p class="text-light-orange mb-2">5,748,160
+                                                        تومان</p>
+                                                    <h3 class="main-title">خرید</h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content mt-2">
+                                    <div class="tab-pane show active pt-lg-4 pt-1 pb-3 pb-lg-5 px-5" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                                        <div class="input-group mb-3 position-relative">
+                                            <span>گرم</span>
+                                            <input onkeyup="wight_to_price()" placeholder="مقدار طلا" id="amount">
+                                        </div>
+                                        <div class="input-group mb-3 position-relative">
+                                            <span>تومان</span>
+                                            <input onkeyup="price_to_wight()" placeholder="ارزش کل" id="price">
+                                        </div>
+                                        <p class="fs-13 pe-2 mb-2 lh-1-7">
+                                                                                    </p>
+                                        <a href="#" class="text-green  pe-2 fs-13">خرید
+                                            به
+                                            اندازه
+                                            کل موجودی کیف پول</a>
+                                        <button class="btn-light-green-3 w-100 mt-3">
+                                            <a href="#">خرید</a>
+                                        </button>
+                                    </div>
+                                    <div class="tab-pane pt-lg-4 pt-1 pb-3 pb-lg-5 px-5 fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                                        <div class="input-group mb-3 position-relative">
+                                            <span>گرم</span>
+                                            <input onkeyup="wight_to_price2()" placeholder="مقدار طلا" id="amount2">
+                                        </div>
+                                        <div class="input-group mb-3 position-relative">
+                                            <span>تومان</span>
+                                            <input onkeyup="price_to_wight2()" placeholder="ارزش کل" id="price2">
+                                        </div>
+                                        <p class="fs-13 pe-2 mb-2 lh-1-7">
+                                                                                    </p>
+                                        <a href="#" class="text-dark-red pe-2 fs-13">فروش
+                                            به
+                                            اندازه کل موجودی طلا‌ی آب شده</a>
+                                        <button class="btn-neon-pink w-100 mt-3">
+                                            <a href="https://parniangold.com/melted_gold/sale_meltedgold/">فروش</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-xl-10 mx-auto align-items-end  pt-1 mt-lg-5 pt-lg-5">
+                            <h3 class="text-black  fw-bold ms-md-5  mt-3 d-block d-lg-none"> رشد طلا :</h3>
+    
+                            <div class="text-center col-12 col-lg-9 mx-auto mt-2 mt-lg-5 py-4 pt-lg-4 p-1 px-lg-5 px-2" style="border-radius: 19.787px;
+                                background: linear-gradient(180deg, #DD0053 -13.71%, #26000E 100.02%);
+                                box-shadow: 0px 2.553px 39.301px 0px #000 inset, 0px 2.441px 2.441px 0px rgba(0, 0, 0, 0.25) inset, 0px 2.441px 2.441px 0px rgba(255, 255, 255, 0.25), 0px -1.221px 2.441px 0px rgba(255, 255, 255, 0.25);">
+                                <canvas id="lineChart" height="380" width="720" style="display: block; box-sizing: border-box; height: 190px; width: 360px;"></canvas>
+                            </div>
+                            <div class="">
+    
+                                <p class="textinfo pt-4 text-justify text-black text2">
+                                    سرمایه گذار‌های بزرگ در تمام دنیا خرید طلای آبشده رو یک خرید امن می‌دونن. اونها کاهش
+                                    موقتی قیمت طلا رو فرصت خرید بیشتر در نظر می‌گیرن چون در طول تاریخ قیمت طلا همیشه
+                                    صعودی بوده. همراه با اونها قدم برداریم؟
+    
+                                </p>
+                            </div>
+                        </div>
+
+
+                        
+                        <script src="https://parniangold.com/assets/js/jquery-3.6.4.min.js"></script>
+                        <script src="https://parniangold.com/assets/js/bootstrap.bundle.min.js"></script>
+                        <script src="https://parniangold.com/assets/js/swiper-bundle.min.js"></script>
+                        <script src="https://parniangold.com/assets/js/chart.js"></script>
+                        <script src="https://parniangold.com/assets/js/app.js"></script>
+                        <script>
+                            
+    let USDollar = new Intl.NumberFormat();
+    let buy_price = 5748160;
+    let sale_price = 5611840;
+    let amount = 0;
+
+    function persian_number(value) {
+        let latin = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+        let persian = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
+
+        for (var i = 0; i < latin.length; i++) {
+            value = value.replaceAll(persian[i], latin[i]);
+        }
+        return value;
+    }
+
+    function price_to_wight() {
+        let first_price = 0;
+        if ($('#price').val().length > 5) {
+            first_price = persian_number($('#price').val());
+            let price = parseFloat(first_price.replace(/\D/g, ''));
+
+            amount = price / buy_price;
+            $("#price").val(USDollar.format(price));
+            $("#amount").val(amount.toFixed(3));
+            console.log(first_price, price, buy_price, amount);
+        } else {
+            $("#amount").val(0);
+        }
+    }
+
+    function wight_to_price() {
+        const amount = persian_number($('#amount').val());
+        price = Math.floor(amount * buy_price);
+        $("#price").val(USDollar.format(price));
+        $("#amount").val(amount);
+        // Format the price above to USD using the locale, style, and currency.
+        console.log(amount, price);
+    }
+
+
+    function price_to_wight2() {
+        let first_price = 0;
+        if ($('#price2').val().length > 5) {
+            first_price = persian_number($('#price2').val());
+            let price = parseFloat(first_price.replace(/\D/g, ''));
+
+            amount = price / sale_price;
+            $("#price2").val(USDollar.format(price));
+            $("#amount2").val(amount.toFixed(3));
+            console.log(first_price, price, sale_price, amount);
+        } else {
+            $("#amount").val(0);
+        }
+    }
+
+    function wight_to_price2() {
+        const amount = persian_number($('#amount2').val());
+        price = Math.floor(amount * sale_price);
+        $("#price2").val(USDollar.format(price));
+        $("#amount2").val(amount);
+        // Format the price above to USD using the locale, style, and currency.
+        console.log(amount, price);
+    }
+
+
+    $(document).ready(function () {
+        const buttonNav = document.getElementById('tab1-tab');
+        buttonNav.click()
+        setTimeout(() => {
+            buttonNav.classList.remove('d-none')
+        }, 10)
+    })
+
+    $('.nav-link').click(function () {
+        if ($('#title-wrapper').hasClass('bg-green-gradient')) {
+            $('#title-wrapper').removeClass('bg-green-gradient');
+            $('.sell-buy').removeClass('tab2')
+        } else {
+            $('#title-wrapper').addClass('bg-green-gradient');
+            $('.sell-buy').addClass('tab2')
+        }
+    });
+
+                        </script>
+                        <script>
+                            
+    $(document).ready(function () {
+        const canvas = document.createElement('canvas');
+        let gradient = canvas.getContext("2d").createLinearGradient(0, 300, 0, 0);
+        gradient.addColorStop(0, "#84455D");
+        gradient.addColorStop(1, "#00FFC1");
+
+        // Sample data for the line chart with Farsi months
+        let data = {
+            labels: ["10 \u0627\u0633\u0641\u0646\u062f 1402","28 \u0627\u0633\u0641\u0646\u062f 1402","16 \u0641\u0631\u0648\u0631\u062f\u06cc\u0646 1403","19 \u0641\u0631\u0648\u0631\u062f\u06cc\u0646 1403","29 \u0641\u0631\u0648\u0631\u062f\u06cc\u0646 1403","11 \u0634\u0647\u0631\u06cc\u0648\u0631 1403","20 \u0634\u0647\u0631\u06cc\u0648\u0631 1403","1 \u0645\u0647\u0631 1403","11 \u0645\u0647\u0631 1403","19 \u0645\u0647\u0631 1403","20 \u0622\u0628\u0627\u0646 1403","21 \u062f\u06cc 1403"],
+            datasets: [
+                {
+                    label: 'قیمت خرید',
+                    data: [2935812,3299120,3679632,3607780,3860780,3705944,3678620,3784677,4127442,4118840,4607636,5341336],
+                    borderColor: '#00FFDB',
+                    boxShadow: '0 0 10px 0 #000000',
+                    borderWidth: 1,
+                    fill: true,
+                    backgroundColor: gradient,
+                },
+                {
+                    label: 'قیمت فروش',
+                    data: [2866188,3220880,3592368,3522220,3769220,3618056,3591380,3694922,4029558,4021160,4498364,5214664],
+                    borderColor: 'transparent',
+                },
+
+            ]
+        };
+
+        // Configuration options with custom y-axis range and stepSize
+        let options = {
+            elements: {
+                point: {
+                    radius: 0,
+                    pointBorderColor: 'transparent',
+                    backgroundColor: 'transparent',
+                },
+            },
+            plugins: {
+                tooltip: {
+                    rtl: true,
+                    textAlign: 'right',
+                    padding: 10,
+                    backgroundColor: 'rgba(0,0,0,0.18)',
+                    borderColor: 'rgba(175,174,174,0.66)',
+                    borderWidth: 1,
+                    titleColor: '#00ECB3',
+                    titleFont: {
+                        family: 'IranYekanBakh',
+                        lineHeight: 2,
+                    },
+                    // bodyColor: '#FF4D73',
+                    bodyFont: {
+                        family: 'IranYekanBakh',
+                        lineHeight: 2,
+                    },
+                    callbacks: {
+                        label: function (context) {
+                            // Show tooltip label as usual
+                            return context.dataset.label + ': ' + context.parsed.y.toLocaleString();
+                        }
+
+                    },
+                    displayColors: false, // Disable the square from appearing
+                },
+                legend: {
+                    display: false
+                },
+            },
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    grid: {
+                        color: (context) => {
+                            if (context.index === 0) {
+                                return ('#007766')
+                            } else {
+                                return ('#FF000038')
+                            }
+                        }
+                    },
+                    beginAtZero: false,
+                    ticks: {
+                        color: (context) => {
+                            if (context.index === 0) {
+                                return ('transparent')
+                            } else {
+                                return ('#44FFE4')
+                            }
+                        },
+                        font: {
+                            size: 11,
+                            family: 'IranYekanBakh'
+                        },
+                        stepSize: 400000
+                    }
+                },
+                x: {
+                    grid: {
+                        color: (context) => {
+                            if (context.index === 0) {
+                                return ('#007766')
+                            } else {
+                                return ('#FF000038')
+                            }
+                        }
+                    },
+                    beginAtZero: false,
+                    ticks: {
+                        color: (context) => {
+                            if (context.index === 0) {
+                                return ('transparent')
+                            } else {
+                                return ('#ffffff')
+                            }
+                        },
+                        font: {
+                            size: 11,
+                            family: 'IranYekanBakh'
+                        },
+                        maxTicksLimit: 6
+                    }
+                },
+            },
+            interaction: {
+                mode: 'index',
+                intersect: false
+            }
+
+        };
+
+        // Get the canvas element
+        let ctx = document.getElementById('lineChart').getContext('2d');
+
+        // Create the line chart
+        let myLineChart = new Chart(ctx, {
+            type: 'line',
+            data: data,
+            options: options,
+        });
+    });
+
+                        </script>
+                        <script>
+                            function toggleDropdown() {
+                                $('#dropdown-menu-tool').toggleClass('show')
+                            }</script>
+                            <script>
+                                
+    const texts = [
+        "   وب سایت پرنیان مورد تأیید مرکز رسانه‌های دیجیتال وزارت فرهنگ و ارشاد اسلامی است.",
+        "پرنیان تحت مشاوره اندیشکده کسب‌وکار دانشگاه صنعتی شریف برای توسعه کسب‌وکار و ارتقای خدمات خود می‌باشد.",
+        " پرنیان توسط مرکز توسعه تجارت الکترونیکی احراز هویت شده و اعتماد این سازمان و وزارت صنعت، معدن و تجارت را جهت کسب مجوز فعالیت تجاری آنلاین در حوزه طلا و جواهر به دست آورده است",
+        "پرنیان جهت ارائه فاکتور قانونی، پروانه کسب از اتحادیه طلا و جواهر زیر نظر دبیرخانه هیات عالی نظارت بر سازمان صنفی کشور را دریافت نموده است.",
+        " پرنیان جهت فروش طلای آبشده و دیگر مصنوعات طلا می بایست تاییدیه اتحادیه کشوری کسب و کارهای مجازی را دریافت می‌کرد. بدین منظور با ارائه مدارک و مستندات لازم صنفی در حوزه طلا، توانست پروانه کسب سامانه آنلاین معاملات طلای آبشده و مصنوعات طلا و جواهر را به شماره صنفی1402371934دریافت کند. این اتحادیه برای نظارت بر پلتفرم‌های معاملات طلای آنلاین کارگروه ویژه‌ای دارد."
+    ]
+    const textContainer = document.querySelector('#spinnertext')
+    var htmlCollection = document.getElementsByClassName('item-slider');
+    //getting elements by class name into an HTMLCollection
+
+    var itemsId = Array.from(htmlCollection);
+    //turning the HTMLcollection into an array for easier manipulation of the elements
+
+    var sectionDeg = 360 / itemsId.length;
+    //sectioning the (imaginary) circle into a number of section equalling the number of items
+    //it can be used on more elements
+
+    var radianSectionDeg = sectionDeg * Math.PI * 2 / 360;
+    //transforming from degrees into radians
+    var radiusLength = 120;
+    if (window.innerWidth > 1000) {
+        radiusLength = 240;
+    }
+    //the distance between the center of the circle to the element
+    //edit this number to increase/decrease that distance
+    function changeText() {
+        <!-- $(textContainer).text(texts[idx]) -->
+    }
+
+    for (var i = 0; i < itemsId.length; i++) {
+        itemsId[i].style.top = radiusLength * Math.sin(radianSectionDeg * i - 3.47) + 'px';
+        itemsId[i].style.left = radiusLength * Math.cos(radianSectionDeg * i - 3.47) + 'px';
+    }
+    //setting the top and left positions of each elemenent based on the following formula:
+    //(x, y) = (r * cos(θ), r * sin(θ)) like this:
+    //x = (r * cos(θ) => left
+    //y = r * sin(θ) => top
+    //1.5708 is a radian used put the first element on top - basically 90deg
+
+    function makeATurn() {
+        for (var i = 0; i < itemsId.length; i++) {
+            itemsId[i].style.top = radiusLength * Math.sin(radianSectionDeg * i - 3.47) + 'px';
+            itemsId[i].style.left = radiusLength * Math.cos(radianSectionDeg * i - 3.47) + 'px';
+
+            if (+String(itemsId[i].style.left).split(".")[0] > 200) {
+                console.log()
+                $(textContainer).text(texts[+$(itemsId[i]).data("i") - 1])
+            }
+        }
+    }
+
+    makeATurn()
+
+    //function used to set the new position of the elements
+
+    function turnRight() {
+        var holder = itemsId.pop();
+        itemsId.unshift(holder);
+        makeATurn();
+    }
+
+    function turnLeft() {
+        var holder = itemsId.shift();
+        itemsId.push(holder);
+        makeATurn();
+    }
+
+    //we're moving the elements by changing their position in the array
+
+                            </script>
+</body>
+</html>
